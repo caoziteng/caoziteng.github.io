@@ -1,0 +1,129 @@
+/* Basic settings */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #333;
+    line-height: 1.8;
+    background-color: #ffffff;
+}
+
+
+/* Layout */
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+
+/* Header */
+
+header {
+    background: #f7f9fc;
+    text-align: center;
+    padding: 60px 20px 40px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+header p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+/* Navigation */
+
+nav {
+    margin-top: 30px;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* Sections */
+
+h2 {
+    color: #003366;
+    font-size: 28px;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 8px;
+    margin-top: 20px;
+}
+
+
+ul {
+    padding-left: 25px;
+}
+
+
+li {
+    margin-bottom: 8px;
+}
+
+
+/* Project cards */
+
+.card {
+
+    background: #f8f9fa;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+
+}
+
+
+.card h3 {
+
+    margin-top: 0;
+    color: #004080;
+
+}
+
+
+/* Footer */
+
+footer {
+
+    text-align: center;
+    padding: 30px;
+    color: #777;
+    font-size: 14px;
+
+}
+
+
+/* Mobile */
+
+@media(max-width:600px){
+
+    header h1{
+        font-size:32px;
+    }
+
+    nav a{
+        display:block;
+        margin:10px;
+    }
+
+}
